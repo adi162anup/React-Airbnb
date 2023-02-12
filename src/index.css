@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+}
+
+.nav_logo {
+  max-width: 100;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero_img {
+  padding-right: 85px;
+  max-height: 250px;
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero_header {
+  font-size: xx-large;
+  margin-left: 15px;
+  margin-top: 50px;
+  margin-bottom: 16px;
+  font-size:230%;
+}
+
+.hero_para {
+  margin-left: 20px;
+  margin-top: 0;
+  max-width: 300px;
+}
+
+.card {
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.card_img {
+  margin-left: 22px;
+  width: 170px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.card_stats {
+  font-size: small;
+  font-style:oblique;
+  margin-top: 1%;
+}
+
+.card_star {
+  margin: 1%;
+  margin-left: 22px;
+  color:#cc3370;
+  font-size: small;
+}
+
+.card_desc {
+  margin-left: 8%;
+  font-size: small;
+}
+
+/* .card_description {
+  margin-left: 4%;
+  font-size: small;
+}
+
+.card_cost {
+  margin-left: 4%;
+  font-size: small;
+} */
